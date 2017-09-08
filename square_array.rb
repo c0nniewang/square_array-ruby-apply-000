@@ -1,6 +1,3 @@
 def square_array(array)
-
-  array.collect {|el| el**2}
-  array
-
+  array.collect {|x| x**2}
 end
